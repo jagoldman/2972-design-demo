@@ -1,0 +1,13 @@
+# Screenshots show team photos; photos are not kept in this repository (see README, Photos).
+shots/
+.DS_Store
+# --- 2972 standard: never commit secrets or data ---
+.env
+.env.*
+!.env.example
+backups/
+data/
+*.sql.gz
+*.dump
+*.pem
+*.key
